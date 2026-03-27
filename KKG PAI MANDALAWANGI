@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KKG PAI Kecamatan Mandalawangi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f4f6f8;
+        }
+        header {
+            background: #1e7e34;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+        nav {
+            background: #145a32;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            padding: 20px;
+        }
+        .card {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+        footer {
+            background: #1e7e34;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>MGMP PAI Kecamatan Mandalawangi</h1>
+    <p>Musyawarah Guru Mata Pelajaran Pendidikan Agama Islam</p>
+</header>
+
+<nav>
+    <a href="#">Beranda</a>
+    <a href="#profil">Profil</a>
+    <a href="#visi">Visi & Misi</a>
+    <a href="#kegiatan">Kegiatan</a>
+    <a href="#kontak">Kontak</a>
+</nav>
+
+<div class="container">
+
+    <div class="card" id="profil">
+        <h2>Profil</h2>
+        <p>
+            KKG PAI Kecamatan Mandalawangi merupakan wadah profesional bagi guru Pendidikan Agama Islam 
+            untuk meningkatkan kompetensi, berbagi pengalaman, serta mengembangkan pembelajaran yang 
+            efektif dan berkarakter.
+        </p>
+    </div>
+
+    <div class="card" id="visi">
+        <h2>Visi</h2>
+        <p>
+            Terwujudnya guru PAI yang profesional, inovatif, dan berakhlak mulia.
+        </p>
+
+        <h2>Misi</h2>
+        <ul>
+            <li>Meningkatkan kompetensi guru PAI</li>
+            <li>Mengembangkan pembelajaran kreatif dan inovatif</li>
+            <li>Mendorong kolaborasi antar guru</li>
+            <li>Menyusun perangkat pembelajaran berkualitas</li>
+            <li>Menanamkan nilai keimanan dan akhlak mulia</li>
+        </ul>
+    </div>
+
+    <div class="card" id="kegiatan">
+        <h2>Kegiatan</h2>
+        <ul>
+            <li>Rapat rutin KKG PAI</li>
+            <li>Workshop dan pelatihan guru</li>
+            <li>Berbagi praktik baik pembelajaran</li>
+            <li>Penyusunan perangkat ajar</li>
+        </ul>
+    </div>
+
+    <div class="card" id="kontak">
+        <h2>Kontak</h2>
+        <p>Email: kkgpai.mandalawangi@email.com</p>
+        <p>Alamat: Kecamatan Mandalawangi</p>
+    </div>
+
+</div>
+
+<footer>
+    <p>&copy; 2026 KKG PAI Mandalawangi</p>
+</footer>
+
+</body>
+</html>
